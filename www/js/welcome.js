@@ -1,5 +1,5 @@
 // Establece la fecha objetivo
-const fechaObjetivo = new Date("Oct 11, 2025 17:00:00").getTime();
+const fechaObjetivo = new Date("Oct 11, 2025 12:00:00").getTime();
 
 // Actualiza la cuenta regresiva cada 1 segundo
 const x = setInterval(function () {
