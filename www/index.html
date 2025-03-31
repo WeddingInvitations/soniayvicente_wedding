@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boda de Marta & Álvaro</title>
+  <link rel="icon" href="images/icon.png" type="image/png">
+  <link rel="canonical" href="https://www.martayalvaro.es/" />
+
+  <!-- Enlaza tu archivo de estilos personalizado -->
+  <link rel="stylesheet" type="text/css" href="css/style.css?v=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+  <!-- Diseño de Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Over+the+Rainbow&family=Sacramento&display=swap"
+    rel="stylesheet">
+
+  <!-- Archivos script.js -->
+  <script type="module" src="js/attendance.js"></script>
+  <script src="js/welcome.js"></script>
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBS6xyVqcLBq9jq1HbTSF-Q4tNr8rQriW8&callback=initMap&libraries=&v=weekly"
+    async defer></script>
+
+</head>
+
+<body class="custom-body">
+
+  <header>
+    <!-- <video autoplay loop muted playsinline>
+      <source src="video/header.mp4" type="video/mp4">
+    </video> -->
+  </header>
+
+  <nav></nav>
+
+  <!-- BIENVENIDOS -->
+  <div id="bienvenidos">
+
+    <div class="scroll-reveal icon">
+      <img class="icon_left" src="images/time.png" alt="elemento decorativo">
+    </div>
+    <br><br>
+
+    <!-- Cuenta atrás -->
+    <div class="cuenta-regresiva">
+      <div id="cuenta-atras">
+        <div class="tiempo">
+          <span id="dias"></span>
+          <span class="unidad">Días</span>
+        </div>
+        <div class="barra">|</div>
+        <div class="tiempo">
+          <span id="horas"></span>
+          <span class="unidad">Horas</span>
+        </div>
+        <div class="barra">|</div>
+        <div class="tiempo">
+          <span id="minutos"></span>
+          <span class="unidad">Min</span>
+        </div>
+        <div class="barra">|</div>
+        <div class="tiempo">
+          <span id="segundos"></span>
+          <span class="unidad">Seg</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br>
+
+  <!-- GENERAL INFORMATION -->
+  <div id="general-information">
+
+    <h1> Destino </h1>
+
+
+    <!-- <div class="general-information-texto">
+      <p> La ceremonia tendrá lugar en "El Celler de Can Torrens" ( Sant Fost de Campsentelles) </p>
+    </div> -->
+
+    <div class="collage-container">
+      <div class="finca-item">
+        <img src="images/parroquia.jpg" alt="Parroquia" class="collage-img">
+        <div class="texto-tarjeta">
+          <p>Parroquia de San Francisco <br> Puerto de Santa María, Cádiz (11500)</p>
+        </div>
+      </div>
+      <div class="finca-item">
+        <img src="images/finca.jpg" alt="Iglesia" class="collage-img">
+        <div class="texto-tarjeta">
+          <p>La Bendita Locura <br> Ctra Jerez - Rota Km 6 <br> Cádiz (11500)</p>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- <div class="finca-image-container">
+      <img src="images/parroquia.jpg" alt="Finca" />
+      <div class="information-texto">
+        <p>
+          Parroquia de San Francisco <br>
+          Puerto de Santa María, Cádiz (11500) <br>
+        </p>
+      </div>
+    </div> -->
+
+    <div class="scroll-reveal icon">
+      <img class="icon_left" src="images/location_3.png" alt="elemento decorativo">
+    </div>
+
+    <br>
+
+    <!-- Botón de Google Maps -->
+    <!-- <div class="boton-maps">
+      <a href="https://maps.app.goo.gl/MW1KBJWJbxByogRJ9?g_st=iw" target="_blank" class="boton">
+        Cómo llegar
+      </a>
+    </div> -->
+
+    <div class="scroll-reveal icon">
+      <img class="icon_right" src="images/map.png" alt="elemento decorativo">
+    </div>
+
+    <br><br><br>
+
+    <div id="mapDiv"></div>
+
+    <br>
+
+    <h1> Itinerario </h1>
+
+    <div class="timeline">
+
+      <div class="event">
+        <div class="time">17:00h</div>
+        <div class="icon"><img src="images/llegada.png" alt="Llegada" /></div>
+        <div class="description">Llegada invitados</div>
+      </div>
+
+      <div class="event">
+        <div class="time">17:30h</div>
+        <div class="icon"><img src="images/ceremonia.png" alt="Ceremonia" /></div>
+        <div class="description">Comienzo ceremonia</div>
+      </div>
+
+      <div class="event">
+        <div class="time">18:30h</div>
+        <div class="icon"><img src="images/cocktail.png" alt="Cocktail" /></div>
+        <div class="description">Apertura cocktail</div>
+      </div>
+
+      <div class="event">
+        <div class="time">20:00h</div>
+        <div class="icon"><img src="images/banquete.png" alt="Cena" /></div>
+        <div class="description">Inicio banquete</div>
+      </div>
+
+      <div class="event">
+        <div class="time">22:00h</div>
+        <div class="icon"><img src="images/baile.png" alt="Baile" /></div>
+        <div class="description">Barra libre</div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- ASISTENCIA -->
+  <div id="asistencia">
+    <h1> Asistencia </h1>
+
+    <div class="asistencia-texto">
+      <h3>Por favor, confirma tu asistencia antes del <strong>30 de junio</strong></h3>
+      <div class="scroll-reveal icon">
+        <img class="icon_right" src="images/asistencia.png" alt="elemento decorativo">
+      </div>
+      <div class="form-container-asist">
+        <form id="attendance-form">
+          <div>
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" name="nombre" required>
+          </div>
+          <div>
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+          </div>
+          <div>
+            <label for="alergias">Alergias, intolerancias o alguna condición que debamos tener en cuenta:</label>
+            <input type="text" id="alergias" name="nombre">
+          </div>
+          <br>
+          <div>
+            <label id="subtitle">Transporte*</span></label>
+            <p> *El autobús saldrá a las 19:00h de la plaza de toros </p>
+          </div>
+          <div>
+            <input type="checkbox" id="busSi" name="tipo">
+            <label for="busSi"> Quiero autobús </label>
+            <input type="checkbox" id="busNo" name="tipo">
+            <label for="busNo"> No quiero autobús </label>
+          </div>
+          <div>
+            <label id="subtitle">Acompañantes</span></label>
+          </div>
+          <div>
+            <input type="checkbox" id="acompanadoNo" name="acompanado">
+            <label for="acompanadoNo">Iré solo</label>
+            <input type="checkbox" id="acompanadoSi" name="acompanado">
+            <label for="acompanadoSi">Voy acompañado</label>
+          </div>
+          <br>
+          <!-- <div>
+            <label><span id="subtitle">Elige el plato principal: </span></label>
+          </div>
+          <div>
+            <input type="checkbox" id="carne" name="comida">
+            <label for="carne"> Carne </label>
+            <input type="checkbox" id="pescado" name="comida">
+            <label for="pescado"> Pescado </label>
+          </div> -->
+          <!-- Pop-up -->
+          <div id="popup">
+            <h2>Añade a tus acompañantes</h2>
+            <span id="closeButton">&times;</span>
+            <button type="button" id="addAcompananteButton">Añadir Acompañante</button>
+            <div id="accompaniments-list"></div>
+            <br>
+            <button type="button" id="guardarButton">Guardar</button>
+          </div>
+
+          <br>
+
+          <div id="overlay"></div>
+          <button type="submit" id="submit">Confirmar Asistencia</button>
+          <div id="mensaje-exito-modal" class="modal">
+            <div class="modal-content">
+              <span class="close" id="cerrar-modal">&times;</span>
+              <p>Gracias por confirmar tu asistencia</p>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <br><br>
+
+  <div id="info_interes">
+    <h1> Información de interés </h1>
+
+    <p> La finca cuenta con parking y ropero gratuitos, disponibles durante toda la celebración. </p>
+
+    <br>
+    <p> También os dejamos por aquí una sugerencia de alojamiento cercano. </p>
+
+    <div class="hotel-info">
+      <a href="https://all.accor.com/hotel/3309/index.es.shtml?utm_campaign=seo+maps&utm_medium=seo+maps&utm_source=google+Maps"
+        class="hotel-link" target="_blank">
+        🛎️ Hotel Ibis Barcelona Mollet ** </a>
+      <br>
+      <a href="tel:935790005" class="boton-telefono">
+        <button>📞 Llamar al 93 579 00 05</button>
+      </a>
+    </div>
+
+    <br>
+    <div class="contacto-novios">
+      <p>  Además, aquí te dejamos nuestros contactos de referencia, por si los necesitas por algún motivo:  </p>
+      <div class="contacto">
+        <p>📲 <strong>Cris</strong></p>
+        <a href="tel:+34685856288" class="boton-telefono">
+          <button>📞 Llamar a Cris</button>
+        </a>
+      </div>
+      <div class="contacto">
+        <p>📲 <strong>Anita</strong></p>
+        <a href="tel:+34622149046" class="boton-telefono">
+          <button>📞 Llamar a Anita</button>
+        </a>
+      </div>
+    </div>
+
+    <br><br>
+
+    <!-- <p> Aquí dejamos el contacto de nuestra Wedding Planner por si necesitáis hablar con ella por cualquier motivo. </p>
+    <div class="contacto-info">
+      <a href="https://www.instagram.com/vconb.weddings?igsh=eWZpNGo0eWw0aHFw" target="_blank">
+      <img src="images/instagram.png" alt="phone" class="rrss"> @vconb.weddings </a>
+    </div> -->
+
+  </div>
+
+  <!-- VESTIMENTA -->
+  <div id="vestimenta">
+    <h1>Vestimenta</h1>
+
+    <div class="scroll-reveal icon">
+      <img class="icon_right" src="images/ropa.png" alt="elemento decorativo">
+    </div>
+
+
+    <div class="vestimenta-texto">
+      <p>
+        Solo hay una regla de vestimenta en nuestra boda: <br>
+        ¡Los hombres deberán llevar smoking!
+      </p>
+    </div>
+  </div>
+
+
+  <!-- REGALOS -->
+  <div id="regalos">
+
+    <h1> Regalos </h1>
+
+    <div class="scroll-reveal icon">
+      <img class="icon_left" src="images/regalo.png" alt="elemento decorativo">
+    </div>
+
+    <div class="regalos-texto">
+      <p>
+        Para nosotros el mejor regalo es poder compartir este momento contigo, pero si también deseas apoyarnos en este
+        nuevo capítulo, aquí te dejamos nuestra cuenta para hacerlo más fácil.
+      </p>
+    </div>
+
+    <code class="plain-text">ESXX XXXX XXXX XXXX XXXX</code>
+    <br>
+
+  </div>
+
+  <br><br>
+
+  <img class="pre-footer" src="images/footer.png" alt="Final img" />
+
+  <!-- Pie de página -->
+  <footer>
+    <div class="footer-content">
+      <p>&copy; Marta & Álvaro 2025</p>
+    </div>
+  </footer>
+</body>
