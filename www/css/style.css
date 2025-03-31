@@ -165,9 +165,7 @@ audio {
     justify-content: center;
     align-items: center;
     padding: 15px 0;
-    font-family: 'Garamond', serif;
-    color: #c0a28f; /* Tono sofisticado */
-    font-size: 1.5rem;
+    color: #c0a28f;
     letter-spacing: 1px;
 }
 
@@ -179,10 +177,8 @@ audio {
 
 .tiempo {
     text-align: center;
-    font-size: 2.2rem;
     font-weight: bold;
-    color: #4A4A4A; /* Gris pólvora */
-    min-width: 60px;
+    color: #4A4A4A;
 }
 
 .unidad {
