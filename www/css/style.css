@@ -526,7 +526,7 @@ audio {
 
 /* Formulario */
 .form-container-asist {
-    background: #4f92b373;
+    background: #09390573;
     border-radius: 12px;
     padding: 30px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -802,7 +802,7 @@ button#submit:active {
 
 
 footer {
-    background-color: #7c9299;
+    background-color: #3f4a2c;
     padding: 10px;
     color: white;
 }
