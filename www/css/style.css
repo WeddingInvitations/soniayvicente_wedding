@@ -144,7 +144,7 @@ audio {
     color: #3f4a2c;
     font-family: "Meow Script", cursive;
     font-weight: 400;
-    font-size: 35px;
+    font-size: 45px;
     letter-spacing: 2px;
 }
 
@@ -203,7 +203,7 @@ audio {
     color: #3f4a2c;
     font-family: "Meow Script", cursive;
     font-weight: 400;
-    font-size: 35px;
+    font-size: 45px;
     letter-spacing: 2px;
 }
 
@@ -262,7 +262,7 @@ audio {
     bottom: -20px;
     left: 50%;
     transform: translateX(-50%);
-    background: rgba(124, 146, 153, 0.94);
+    background: rgba(131, 141, 130, 0.94);
     padding: 5px 5px;
     font-size: 13px;
     border-radius: 8px;
@@ -311,7 +311,7 @@ audio {
     position: relative;
     margin: 50px 0;
     padding-left: 40px;
-    border-left: 3px solid #f59d9e;
+    border-left: 3px solid #3f4a2c;
 }
 
 /* @media only screen and (max-width: 600px) {
@@ -419,10 +419,10 @@ audio {
 } */
 
 #info_interes h1 {
-    color: #f59d9e;
-    font-family: "Over the Rainbow";
+    color: #3f4a2c;
+    font-family: "Meow Script", cursive;
     font-weight: 400;
-    font-size: 35px;
+    font-size: 45px;
     letter-spacing: 2px;
 }
 
@@ -506,10 +506,10 @@ audio {
 }
 
 #asistencia h1 {
-    color: #f59d9e;
-    font-family: "Over the Rainbow";
+    color: #3f4a2c;
+    font-family: "Meow Script", cursive;
     font-weight: 400;
-    font-size: 35px;
+    font-size: 45px;
     letter-spacing: 2px;
 }
 
@@ -750,10 +750,10 @@ button#submit:active {
 }
 
 #vestimenta h1 {
-    color: #f59d9e;
-    font-family: "Over the Rainbow";
+    color: #3f4a2c;
+    font-family: "Meow Script", cursive;
     font-weight: 400;
-    font-size: 35px;
+    font-size: 45px;
     letter-spacing: 2px;
 }
 
@@ -771,10 +771,10 @@ button#submit:active {
 }
 
 #regalos h1 {
-    color: #f59d9e;
-    font-family: "Over the Rainbow";
+    color: #3f4a2c;
+    font-family: "Meow Script", cursive;
     font-weight: 400;
-    font-size: 35px;
+    font-size: 45px;
     letter-spacing: 2px;
 }
 
