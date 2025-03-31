@@ -5,7 +5,7 @@ html {
 
 /* Estilos para el texto */
 body.custom-body {
-    background-color: #f9e7db;
+    background-image: url('images/background.png');
     font-family: "Over the rainbow", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
@@ -28,7 +28,7 @@ body.custom-body {
 
 header {
     background-size: contain;
-    background-image: url('images/header_2.png');
+    background-image: url('images/header.png');
     background-repeat: no-repeat;
     background-position: center;
     height: 550px;
