@@ -161,17 +161,15 @@ audio {
     margin-top: 10px;
 }
 
-
 .cuenta-regresiva {
-    background: rgba(242, 243, 225, 0.8);
+    background: rgba(242, 243, 225, 0.9); /* Blanco roto */
     padding: 20px;
     border-radius: 20px;
     max-width: 300px;
     margin: 20px auto;
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
-    border: 3px solid #FFB6C1;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+    border: 3px solid #6B8E23; /* Verde oliva */
     backdrop-filter: blur(5px);
-    /* Suaviza el fondo */
 }
 
 #cuenta-atras {
@@ -184,43 +182,44 @@ audio {
 .tiempo {
     border-radius: 10px;
     text-align: center;
-    color: #333;
-    transition: transform 0.3s;
+    color: #4A4A4A; /* Gris pólvora */
+    transition: transform 0.3s, text-shadow 0.3s;
 }
 
 .tiempo:hover {
     transform: scale(1.1);
-    /* Efecto hover para dinamismo */
+    text-shadow: 0 0 8px rgba(255, 102, 0, 0.6); /* Efecto pólvora */
 }
 
 span {
     display: block;
-    font-size: 1.2em;
+    font-size: 1.4em;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
     color: #4A4A4A;
-    animation: colorCambio 2s infinite alternate;
+    animation: latido 1.5s infinite alternate;
 }
 
 .unidad {
     font-size: 0.8em;
-    color: #666;
+    color: #6B8E23; /* Verde oliva */
+    font-family: 'Dancing Script', cursive;
 }
 
 .barra {
-    font-size: 1.2em;
-    color: #FF7F7F;
+    font-size: 1.5em;
+    color: #7c9299; /* Gris pólvora */
 }
 
-@keyframes colorCambio {
+/* Animación de latido en los números */
+@keyframes latido {
     0% {
-        color: #f9a3a3;
+        transform: scale(1);
+        opacity: 1;
     }
-
-    50% {
-        color: #8dc6ff;
-    }
-
     100% {
-        color: #7c9299;
+        transform: scale(1.1);
+        opacity: 0.9;
     }
 }
 
