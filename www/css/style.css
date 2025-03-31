@@ -27,11 +27,11 @@ body.custom-body {
 /* PORTADA */
 
 header {
-    background-size: contain;
+    background-size: cover;
     background-image: url('images/header.png');
     background-repeat: no-repeat;
     background-position: center;
-    height: 550px;
+    height: 500px;
 }
 
 .scroll-reveal {
@@ -59,25 +59,6 @@ header {
     float: right;
 }
 
-/* @media only screen and (max-width: 600px) {
-    header {
-        background-size: cover;
-        background-image: url('images/header.png');
-        height: 400px;
-    }
-} */
-
-
-/* @media only screen and (max-width: 600px) {
-
-    video {
-        height: 530px;
-    }
-}
-
-video {
-    max-width: 3400px;
-} */
 
 /* 
 nav {
@@ -162,8 +143,8 @@ audio {
 
 #bienvenidos h1 {
     color: #35281d;
-    font-family: 'Quattrocento', serif;
-    font-style: normal;
+    font-family: "Meow Script", cursive;
+    font-weight: 400;
     font-size: 35px;
     letter-spacing: 2px;
 }
@@ -255,7 +236,7 @@ span {
 
 #general-information h1 {
     color: #f59d9e;
-    font-family: "Over the Rainbow";
+    font-family: "Meow Script", cursive;
     font-weight: 400;
     font-size: 35px;
     letter-spacing: 2px;
@@ -292,12 +273,15 @@ span {
 
 .finca-item {
     position: relative;
-    width: 250px; /* Tamaño controlado */
-    transform: rotate(-3deg); /* Ligera inclinación para efecto collage */
+    width: 250px;
+    /* Tamaño controlado */
+    transform: rotate(-3deg);
+    /* Ligera inclinación para efecto collage */
 }
 
 .finca-item:nth-child(even) {
-    transform: rotate(3deg); /* Alternar rotación */
+    transform: rotate(3deg);
+    /* Alternar rotación */
 }
 
 .collage-img {
