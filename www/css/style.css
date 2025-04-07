@@ -300,6 +300,10 @@ audio {
     border-left: 3px solid #3f4a2c;
 }
 
+.itinerario img {
+    max-width: 90%;
+}
+
 /* @media only screen and (max-width: 600px) {
     .timeline {
         position: relative;
