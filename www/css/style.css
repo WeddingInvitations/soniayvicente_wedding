@@ -412,6 +412,10 @@ audio {
     letter-spacing: 2px;
 }
 
+#info_interes img {
+    max-width: 20%;
+}
+
 
 .hotel-info {
     display: flex;
