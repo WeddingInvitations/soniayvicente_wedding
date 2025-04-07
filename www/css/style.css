@@ -242,7 +242,7 @@ audio {
     position: relative;
     width: 250px;
     /* Tamaño controlado */
-    transform: rotate(-3deg);
+    /* transform: rotate(-3deg); */
     /* Ligera inclinación para efecto collage */
 }
 
@@ -261,7 +261,7 @@ audio {
 
 .texto-tarjeta {
     position: absolute;
-    bottom: -20px;
+    bottom: -60px;
     left: 50%;
     transform: translateX(-50%);
     background: rgba(131, 141, 130, 0.94);
