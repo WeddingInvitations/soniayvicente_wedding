@@ -151,6 +151,7 @@ audio {
 .bienvenidos-texto p {
     text-align: center;
     padding: 15px;
+    font-family: "The Girl Next Door", serif;
 }
 
 .bienvenidos-texto img {
