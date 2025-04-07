@@ -27,7 +27,7 @@ body.custom-body {
 /* PORTADA */
 
 header {
-    background-size: cover;
+    background-size: contain;
     background-image: url('images/header_4.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -209,24 +209,9 @@ audio {
     letter-spacing: 2px;
 }
 
-
-/* Estilo para la imagen */
-/* .finca-image-container {
-    position: relative;
-    display: inline-block;
-    border: 5px solid #d8c8b7;
-    border-radius: 15px;
-    overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    margin: 30px 0 30px 0;
+#general-information img {
+    max-width: 60%;
 }
-
-.finca-image-container img {
-    width: 100%;
-    height: auto;
-    border-radius: 15px;
-} */
-
 
 .collage-container {
     display: flex;
