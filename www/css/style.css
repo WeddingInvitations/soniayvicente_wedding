@@ -203,7 +203,7 @@ audio {
 
 #general-information h1 {
     color: #3f4a2c;
-    font-family: "Meow Script", cursive;
+    /* font-family: "Meow Script", cursive; */
     font-weight: 400;
     font-size: 45px;
     letter-spacing: 2px;
@@ -406,7 +406,7 @@ audio {
 
 #info_interes h1 {
     color: #3f4a2c;
-    font-family: "Meow Script", cursive;
+    /* font-family: "Meow Script", cursive; */
     font-weight: 400;
     font-size: 45px;
     letter-spacing: 2px;
@@ -493,7 +493,7 @@ audio {
 
 #asistencia h1 {
     color: #3f4a2c;
-    font-family: "Meow Script", cursive;
+    /* font-family: "Meow Script", cursive; */
     font-weight: 400;
     font-size: 45px;
     letter-spacing: 2px;
@@ -737,7 +737,7 @@ button#submit:active {
 
 #musica h1 {
     color: #3f4a2c;
-    font-family: "Meow Script", cursive;
+    /* font-family: "Meow Script", cursive; */
     font-weight: 400;
     font-size: 45px;
     letter-spacing: 2px;
@@ -758,7 +758,7 @@ button#submit:active {
 
 #regalos h1 {
     color: #3f4a2c;
-    font-family: "Meow Script", cursive;
+    /* font-family: "Meow Script", cursive; */
     font-weight: 400;
     font-size: 45px;
     letter-spacing: 2px;
