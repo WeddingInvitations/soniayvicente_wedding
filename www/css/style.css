@@ -742,14 +742,14 @@ button#submit:active {
 }
 
 
-/* VESTIMENTA */
+/* MÚSICA */
 
-#vestimenta {
+#musica {
     text-align: center;
     padding: 20px;
 }
 
-#vestimenta h1 {
+#musica h1 {
     color: #3f4a2c;
     font-family: "Meow Script", cursive;
     font-weight: 400;
@@ -757,7 +757,7 @@ button#submit:active {
     letter-spacing: 2px;
 }
 
-.vestimenta-texto p {
+.musica-texto p {
     text-align: center;
     padding: 15px;
 }
