@@ -6,7 +6,8 @@ html {
 /* Estilos para el texto */
 body.custom-body {
     background-image: url('images/background.png');
-    font-family: "Pavanam", sans-serif;
+    /* font-family: "Pavanam", sans-serif; */
+    font-family: "The Girl Next Door", serif;
     font-weight: 400;
     font-style: normal;
     margin-bottom: 50px;
