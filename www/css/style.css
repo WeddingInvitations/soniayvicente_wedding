@@ -232,7 +232,7 @@ audio {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    /* gap: 30px; */
     flex-wrap: wrap;
     position: relative;
     padding: 20px;
@@ -246,10 +246,9 @@ audio {
     /* Ligera inclinación para efecto collage */
 }
 
-.finca-item:nth-child(even) {
+/* .finca-item:nth-child(even) {
     transform: rotate(3deg);
-    /* Alternar rotación */
-}
+} */
 
 .collage-img {
     width: 100%;
