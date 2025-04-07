@@ -209,9 +209,9 @@ audio {
     letter-spacing: 2px;
 }
 
-#general-information img {
+/* #general-information img {
     max-width: 60%;
-}
+} */
 
 .collage-container {
     display: flex;
