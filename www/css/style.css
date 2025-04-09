@@ -771,9 +771,6 @@ button#submit:active {
 }
 
 .plain-text {
-    color: black;
-    background: none;
-    font-family: 'Quattrocento', serif;
     font-size: inherit;
     padding: 0;
     margin: 0;
