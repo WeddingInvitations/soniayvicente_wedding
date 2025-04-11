@@ -167,7 +167,7 @@ audio {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 15px 0;
+    padding: 20px;
     color: #c0a28f;
     letter-spacing: 1px;
 }
@@ -175,23 +175,26 @@ audio {
 #cuenta-atras {
     display: flex;
     align-items: center;
-    gap: 15px;
+    /* gap: 15px; */
 }
 
 .tiempo {
     text-align: center;
     font-weight: bold;
     color: #4A4A4A;
+    font-size: 40px;
+    margin: 0 10px;
 }
 
 .unidad {
-    font-size: 0.9rem;
+    font-size: 1rem;
     color: #c0a28f; /* Mantiene la paleta elegante */
 }
 
 .barra {
     font-size: 2rem;
     color: #a19282; /* Suaviza la transición entre los números */
+    margin: 0 10px;
 }
 
 
