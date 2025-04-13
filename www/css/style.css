@@ -776,10 +776,7 @@ button#submit:active {
 }
 
 .plain-text {
-    font-size: inherit;
-    padding: 0;
-    margin: 0;
-    text-align: center;
+    color: #b59684;
 }
 
 
