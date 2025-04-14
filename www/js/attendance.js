@@ -261,7 +261,7 @@ document.getElementById('attendance-form').addEventListener("submit", function (
   document.getElementById("acompanadoSi").checked = "";
   document.getElementById("acompanadoNo").checked = "";
   document.getElementById("bus").value = "";
-  document.getElementById("talla").value = "";
+  document.getElementById("talla-calzado").value = "";
   // document.getElementById("busNo").checked = "";
   // document.getElementById("carne").checked = "";
   // document.getElementById("pescado").checked = "";
