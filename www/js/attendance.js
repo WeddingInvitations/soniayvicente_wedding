@@ -158,8 +158,8 @@ document.getElementById('attendance-form').addEventListener("submit", function (
   var phone = document.getElementById("telefono").value;
   var allergies = document.getElementById("alergias").value;
   var attendance = document.getElementById("acompanadoSi").checked;
-  var bus = document.getElementByValue("bus");
-  var size = document.getElementByValue("talla");
+  var bus = document.getElementById("bus");
+  var size = document.getElementById("talla");
 
 
   // if (type) {
