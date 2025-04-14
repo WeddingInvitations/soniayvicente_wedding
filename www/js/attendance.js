@@ -166,15 +166,16 @@ document.getElementById('attendance-form').addEventListener("submit", function (
   // 4. Obtienes el texto de esa opción seleccionada
   //    Usamos .text o .textContent (textContent es generalmente preferido)
   var bus = selectedOption.textContent; // o selectedOption.text
+  console.log("AUTOBÚS: " + bus);
 
-  var size = document.getElementById("talla");
-  size = size.value;
+  var sizeElement = document.getElementById("talla");
+  // size = size.value;
   var selectedIndex2 = sizeElement.selectedIndex2;
   var selectedOption2 = sizeElement.options[selectedIndex2];
   // 4. Obtienes el texto de esa opción seleccionada
   //    Usamos .text o .textContent (textContent es generalmente preferido)
-  size = selectedOption2.textContent; // o selectedOption.text
-  console.log("AUTOBÚS: " + bus);
+  var size = selectedOption2.textContent; // o selectedOption.text
+  
   console.log("Talla: " + size);
 
   // if (type) {
