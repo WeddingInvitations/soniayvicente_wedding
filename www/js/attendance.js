@@ -159,8 +159,8 @@ document.getElementById('attendance-form').addEventListener("submit", function (
   var allergies = document.getElementById("alergias").value;
   var attendance = document.getElementById("acompanadoSi").checked;
 
-  var bus = document.getElementById("bus");
-  bus = bus.value;
+  var busElement = document.getElementById("bus");
+  // busElement = bus.value;
   var selectedIndex = busElement.selectedIndex;
   var selectedOption = busElement.options[selectedIndex];
   // 4. Obtienes el texto de esa opción seleccionada
