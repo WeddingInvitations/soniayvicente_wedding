@@ -158,11 +158,24 @@ document.getElementById('attendance-form').addEventListener("submit", function (
   var phone = document.getElementById("telefono").value;
   var allergies = document.getElementById("alergias").value;
   var attendance = document.getElementById("acompanadoSi").checked;
-  var bus = document.getElementById("bus");
-  var bus = bus.value;
-  var size = document.getElementById("talla");
 
+  var bus = document.getElementById("bus");
+  bus = bus.value;
+  var selectedIndex = busElement.selectedIndex;
+  var selectedOption = busElement.options[selectedIndex];
+  // 4. Obtienes el texto de esa opción seleccionada
+  //    Usamos .text o .textContent (textContent es generalmente preferido)
+  bus = selectedOption.textContent; // o selectedOption.text
+
+  var size = document.getElementById("talla");
+  size = size.value;
+  var selectedIndex2 = sizeElement.selectedIndex2;
+  var selectedOption2 = sizeElement.options[selectedIndex2];
+  // 4. Obtienes el texto de esa opción seleccionada
+  //    Usamos .text o .textContent (textContent es generalmente preferido)
+  size = selectedOption2.textContent; // o selectedOption.text
   console.log("AUTOBÚS: " + bus);
+  console.log("Talla: " + size);
 
   // if (type) {
   //   type = "Adulto";
