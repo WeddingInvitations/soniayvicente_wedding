@@ -10,10 +10,8 @@ document.addEventListener("DOMContentLoaded", function () {
   // Seleccionar los elementos después de que el DOM esté cargado
   var checkboxNo = document.getElementById("acompanadoNo");
   var checkboxSi = document.getElementById("acompanadoSi");
-  var busNo = document.getElementById("busNo");
-  var busSi = document.getElementById("busSi");
-  var carne = document.getElementById("carne");
-  var pescado = document.getElementById("pescado");
+  // var busNo = document.getElementById("busNo");
+  // var busSi = document.getElementById("busSi");
 
 
   checkboxSi.addEventListener("change", habilitarCampoAcompanante);
@@ -160,6 +158,9 @@ document.getElementById('attendance-form').addEventListener("submit", function (
   var phone = document.getElementById("telefono").value;
   var allergies = document.getElementById("alergias").value;
   var attendance = document.getElementById("acompanadoSi").checked;
+  var bus = document.getElementByValue("bus");
+  var size = document.getElementByValue("talla");
+
 
   // if (type) {
   //   type = "Adulto";
@@ -209,7 +210,8 @@ document.getElementById('attendance-form').addEventListener("submit", function (
     Teléfono: phone,
     Asistencia: attendance,
     Alergias: allergies,
-    // Bus: bus,
+    Bus: bus,
+    Size: size,
     // Comida: comida,
     Acompañantes: acompanantes
   })
@@ -224,7 +226,8 @@ document.getElementById('attendance-form').addEventListener("submit", function (
         ph: phone,
         att: attendance,
         ale: allergies,
-        // bus: bus,
+        bus: bus,
+        size: size,
         // comida: comida,
         gue: acompanantes
       };
@@ -241,7 +244,8 @@ document.getElementById('attendance-form').addEventListener("submit", function (
   document.getElementById("alergias").value = "";
   document.getElementById("acompanadoSi").checked = "";
   document.getElementById("acompanadoNo").checked = "";
-  // document.getElementById("busSi").checked = "";
+  document.getElementById("bus").value = "";
+  document.getElementById("talla").value = "";
   // document.getElementById("busNo").checked = "";
   // document.getElementById("carne").checked = "";
   // document.getElementById("pescado").checked = "";
@@ -291,7 +295,7 @@ async function enviarEmail(emailData) {
   console.log("Email data: ", emailData);
   // Enviar los datos al servidor
   try {
-    const response = await fetch('https://us-central1-sarayjordiwedding.cloudfunctions.net/enviarEmail', {
+    const response = await fetch('https://us-central1-soniayalvarowedding.cloudfunctions.net/enviarEmail', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
