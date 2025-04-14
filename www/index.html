@@ -234,13 +234,25 @@
             <!-- <p> *El autobús saldrá a las 19:00h de la plaza de toros </p> -->
           </div>
           <div>
+            <label for="bus">¿Vas a necesitar autobús?</label>
+            <select name="bus" id="bus">
+              <option value="" selected disabled>-- Elige tu talla --</option> <!-- Opción por defecto, seleccionada y deshabilitada -->
+              <option value="No"> No </option>
+              <option value="Ida"> Solo ida </option>
+              <option value="IdaVuelta1"> Ida y vuelta a las 21:00h </option>
+              <option value="IdaVuelta2"> Ida y vuelta a las 01:00h </option>
+              <option value="Vuelta"> Solo vuelta </option>
+              <!-- Añade o quita las tallas que necesites -->
+            </select>
+          </div>
+          <!-- <div>
             <p>Horario ida 13:15h</p>
             <p>Horarios Vuelta: 21:30 o 01:00h hacia Gran Vía o Paiporta</p>
             <input type="checkbox" id="busSi" name="tipo">
             <label for="busSi"> Quiero autobús </label>
             <input type="checkbox" id="busNo" name="tipo">
             <label for="busNo"> No quiero autobús </label>
-          </div>
+          </div> -->
           <div>
             <label id="subtitle">Acompañantes</span></label>
           </div>
