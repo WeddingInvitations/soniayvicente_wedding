@@ -165,7 +165,7 @@ document.getElementById('attendance-form').addEventListener("submit", function (
   var selectedOption = busElement.options[selectedIndex];
   // 4. Obtienes el texto de esa opción seleccionada
   //    Usamos .text o .textContent (textContent es generalmente preferido)
-  bus = selectedOption.textContent; // o selectedOption.text
+  var bus = selectedOption.textContent; // o selectedOption.text
 
   var size = document.getElementById("talla");
   size = size.value;
