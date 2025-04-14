@@ -168,7 +168,7 @@ document.getElementById('attendance-form').addEventListener("submit", function (
   var bus = selectedOption.textContent; // o selectedOption.text
   console.log("AUTOBÚS: " + bus);
 
-  var sizeElement = document.getElementById("talla_calzado");
+  var sizeElement = document.getElementById("talla-calzado");
   // size = size.value;
   var selectedIndex = sizeElement.selectedIndex;
   var selectedOption2 = sizeElement.options[selectedIndex2];
