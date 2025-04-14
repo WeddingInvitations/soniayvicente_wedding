@@ -418,6 +418,10 @@ audio {
     max-width: 15%;
 }
 
+#info_interes p {
+    padding: 10px;
+}
+
 
 .hotel-info {
     display: flex;
