@@ -29,7 +29,7 @@ body.custom-body {
 
 header {
     background-size: cover;
-    background-image: url('images/header_6.png');
+    background-image: url('images/header_7.png');
     background-repeat: no-repeat;
     background-position: center;
     height: 400px;
@@ -416,6 +416,10 @@ audio {
 
 #info_interes img {
     max-width: 15%;
+}
+
+#info_interes p {
+    padding: 10px;
 }
 
 
