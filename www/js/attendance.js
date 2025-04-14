@@ -159,7 +159,7 @@ document.getElementById('attendance-form').addEventListener("submit", function (
   var allergies = document.getElementById("alergias").value;
   var attendance = document.getElementById("acompanadoSi").checked;
   var bus = document.getElementById("bus");
-  var bus = busElement.value;
+  var bus = bus.value;
   var size = document.getElementById("talla");
 
   console.log("AUTOBÚS: " + bus);
