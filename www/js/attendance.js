@@ -161,7 +161,7 @@ document.getElementById('attendance-form').addEventListener("submit", function (
   var bus = document.getElementById("bus");
   var size = document.getElementById("talla");
 
-  log.console("AUTOBÚS: " + bus);
+  console.log("AUTOBÚS: " + bus);
 
   // if (type) {
   //   type = "Adulto";
