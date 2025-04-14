@@ -170,7 +170,7 @@ document.getElementById('attendance-form').addEventListener("submit", function (
 
   var sizeElement = document.getElementById("talla");
   // size = size.value;
-  var selectedIndex2 = sizeElement.selectedIndex2;
+  var selectedIndex2 = sizeElement.selectedIndex;
   var selectedOption2 = sizeElement.options[selectedIndex2];
   // 4. Obtienes el texto de esa opción seleccionada
   //    Usamos .text o .textContent (textContent es generalmente preferido)
