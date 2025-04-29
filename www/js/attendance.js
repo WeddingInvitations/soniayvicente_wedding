@@ -219,7 +219,8 @@ document.getElementById('attendance-form').addEventListener("submit", function (
         Nombre: acompananteElement.querySelector(".name").value,
         TipoInvitado: acompananteElement.querySelector(".type").value,
         Edad: acompananteElement.querySelector(".edad").value,
-        Alergias: acompananteElement.querySelector(".allergies").value
+        Alergias: acompananteElement.querySelector(".allergies").value,
+        Talla: acompananteElement.querySelector(".talla-calzado").value
       };
 
       // acompanantes.push(acompanante);
