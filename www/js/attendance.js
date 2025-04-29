@@ -119,6 +119,17 @@ function addAcompanante() {
             <input type="number" placeholder="Edad del Niño" class="edad" name="edad_niño">
           </div>
           <input type="text" placeholder="Alergias" class="allergies">
+          <div>
+            <label for="talla-calzado">Talla de Calzado:</label>
+            <select name="talla_calzado" id="talla-calzado">
+              <option value="" selected disabled>-- Elige tu talla --</option> <!-- Opción por defecto, seleccionada y deshabilitada -->
+              <option value="S">Talla S (35/36)</option>
+              <option value="M">Talla M (37/38)</option>
+              <option value="L">Talla L (39/40)</option>
+              <option value="XL">Talla XL (41/42)</option>
+              <!-- Añade o quita las tallas que necesites -->
+            </select>
+          </div>
           <br><br>
           <button id="deleteAcompananteButton">Borrar Acompañante</button>
         </div>
