@@ -215,12 +215,21 @@ document.getElementById('attendance-form').addEventListener("submit", function (
     for (var i = 0; i < acompananteElements.length; i++) {
       var acompananteElement = acompananteElements[i];
       // Obtener los valores de los campos del acompañante actual
+
+      //saco talla acompañante
+      var sizeElement = acompananteElement.querySelector(".talla-calzado");
+      selectedIndex2 = sizeElement.selectedIndex;
+      selectedOption2 = sizeElement.options[selectedIndex2];
+      var size = selectedOption2.textContent;
+      console.log("talla acompañante: " + size);
+
+
       var acompanante = {
         Nombre: acompananteElement.querySelector(".name").value,
         TipoInvitado: acompananteElement.querySelector(".type").value,
         Edad: acompananteElement.querySelector(".edad").value,
         Alergias: acompananteElement.querySelector(".allergies").value,
-        Talla: acompananteElement.querySelector(".talla-calzado").value
+        Talla: size,
       };
 
       // acompanantes.push(acompanante);
