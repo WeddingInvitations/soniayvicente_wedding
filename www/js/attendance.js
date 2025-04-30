@@ -223,7 +223,7 @@ document.getElementById('attendance-form').addEventListener("submit", function (
       selectedIndex2 = sizeElement.selectedIndex;
       selectedOption2 = sizeElement.options[selectedIndex2];
       var sizeAcomp = selectedOption2.textContent;
-      console.log("talla: " + size);
+      console.log("talla acomp: " + sizeAcomp);
 
 
       var acompanante = {
