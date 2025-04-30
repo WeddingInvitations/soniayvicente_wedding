@@ -230,8 +230,8 @@ document.getElementById('attendance-form').addEventListener("submit", function (
         Nombre: acompananteElement.querySelector(".name").value,
         TipoInvitado: acompananteElement.querySelector(".type").value,
         Edad: acompananteElement.querySelector(".edad").value,
-        Alergias: acompananteElement.querySelector(".allergies").value
-        // Talla: size,
+        Alergias: acompananteElement.querySelector(".allergies").value,
+        Talla: size,
       };
 
       // acompanantes.push(acompanante);
