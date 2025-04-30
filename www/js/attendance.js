@@ -222,7 +222,7 @@ document.getElementById('attendance-form').addEventListener("submit", function (
 
       selectedIndex2 = sizeElement.selectedIndex;
       selectedOption2 = sizeElement.options[selectedIndex2];
-      var size = selectedOption2.textContent;
+      var sizeAcomp = selectedOption2.textContent;
       console.log("talla: " + size);
 
 
@@ -231,7 +231,7 @@ document.getElementById('attendance-form').addEventListener("submit", function (
         TipoInvitado: acompananteElement.querySelector(".type").value,
         Edad: acompananteElement.querySelector(".edad").value,
         Alergias: acompananteElement.querySelector(".allergies").value,
-        Talla: size,
+        Talla: sizeAcomp,
       };
 
       // acompanantes.push(acompanante);
