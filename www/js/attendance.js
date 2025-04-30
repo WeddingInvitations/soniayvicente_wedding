@@ -121,7 +121,7 @@ function addAcompanante() {
           <input type="text" placeholder="Alergias" class="allergies">
           <div>
             <label for="talla-calzado">Talla de Calzado:</label>
-            <select name="talla_calzado" id="talla-calzado">
+            <select name="talla_calzado" id="talla-calzado-acomp">
               <option value="" selected disabled>-- Elige tu talla --</option> <!-- Opción por defecto, seleccionada y deshabilitada -->
               <option value="S">Talla S (35/36)</option>
               <option value="M">Talla M (37/38)</option>
@@ -217,7 +217,7 @@ document.getElementById('attendance-form').addEventListener("submit", function (
       // Obtener los valores de los campos del acompañante actual
 
       //saco talla acompañante
-      var sizeElement = acompananteElement.querySelector("#talla-calzado");
+      var sizeElement = acompananteElement.querySelector("#talla-calzado-acomp");
       console.log("sizeElement: " + sizeElement);
 
       selectedIndex2 = sizeElement.selectedIndex;
