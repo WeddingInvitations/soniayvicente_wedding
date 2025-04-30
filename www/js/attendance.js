@@ -217,7 +217,7 @@ document.getElementById('attendance-form').addEventListener("submit", function (
       // Obtener los valores de los campos del acompañante actual
 
       //saco talla acompañante
-      var sizeElement = acompananteElement.querySelector(".talla-calzado");
+      var sizeElement = acompananteElement.querySelector("#talla-calzado");
       console.log("sizeElement: " + sizeElement);
 
       selectedIndex2 = sizeElement.selectedIndex;
