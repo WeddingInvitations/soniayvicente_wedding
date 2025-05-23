@@ -10,16 +10,10 @@ document.addEventListener("DOMContentLoaded", function () {
   // Seleccionar los elementos después de que el DOM esté cargado
   var checkboxNo = document.getElementById("acompanadoNo");
   var checkboxSi = document.getElementById("acompanadoSi");
-  // var busNo = document.getElementById("busNo");
-  // var busSi = document.getElementById("busSi");
 
 
   checkboxSi.addEventListener("change", habilitarCampoAcompanante);
   checkboxNo.addEventListener("change", habilitarCampoAcompanante);
-  // busSi.addEventListener("change", habilitarBus);
-  // busNo.addEventListener("change", habilitarBus);
-  // carne.addEventListener("change", habilitarComida);
-  // pescado.addEventListener("change", habilitarComida);
   
   // Función para habilitar el check acom y abrir pop up
   function habilitarCampoAcompanante(event) {
